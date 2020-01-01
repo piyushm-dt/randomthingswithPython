@@ -1,0 +1,6 @@
+pygame
+pyopengl
+wikipedia
+gTTS
+playsound
+pyperclip
