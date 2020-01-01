@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('a14.jpg')
+img = cv2.imread('give path to image with extension')
 grayscaled = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 th = cv2.adaptiveThreshold(grayscaled,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY,115,1)
 # retval, threshold = cv2.threshold(img, 12, 255, cv2.THRESH_BINARY)
