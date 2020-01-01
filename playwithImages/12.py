@@ -2,8 +2,8 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-img1 = cv2.imread('a5.jpg')
-img2 = cv2.imread('a7.jpg')
+img1 = cv2.imread('give path to image with extension')
+img2 = cv2.imread('give path to image with extension')
 
 orb = cv2.ORB_create()
 
