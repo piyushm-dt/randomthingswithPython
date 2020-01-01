@@ -1,9 +1,9 @@
-# forground extraction.
+# foreground extraction.
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread('a3.jpg')
+img = cv2.imread('give path to image with extension')
 mask = np.zeros(img.shape[:2],np.uint8)
 
 bgdModel = np.zeros((1,65),np.float64)
