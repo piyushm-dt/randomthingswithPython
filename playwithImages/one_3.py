@@ -4,7 +4,7 @@ import numpy as np
 # rect. top left and botttom right coordinates
 # circle center and radius
 
-img = cv2.imread('a6.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('give path to image with extension', cv2.IMREAD_COLOR)
 
 pix = img[55,55]
 img[55,55] = [240,120,190]
